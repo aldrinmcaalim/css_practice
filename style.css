@@ -1,0 +1,82 @@
+*,
+*::before,
+*::after {
+    text-align: center;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+h1 {
+    font-size: 40px;
+    background-color: red;
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding: 16px;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+h2 {
+    font-size: 27px;
+}
+
+.main {
+    background-color: orange;
+    margin: 0;
+}
+
+.second {
+    background-color: rgb(250, 240, 230);
+    margin: 0;
+    max-width: 300px;
+    margin: auto;
+}
+
+div h1 {
+    background-color: hsl(120, 42%, 48%);
+    font-size: 20px;
+    color: white;
+    margin: auto;
+    width: 450px;
+    height: 60px;
+    line-height: 60px;
+}
+
+div h1:hover {
+    background-color: rgb(100, 150, 250);
+}
+
+div p {
+    display: none;
+    background-color: greenyellow;
+    padding: 20px;
+}
+
+div:hover p {
+    display: block;
+}
